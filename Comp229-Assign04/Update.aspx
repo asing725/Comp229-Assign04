@@ -1,9 +1,6 @@
 ﻿<%@ Page Title="Update" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Update.aspx.cs" Inherits="Comp229_Assign04.Update" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-   <link href="/content/style1.css" rel="stylesheet" type="text/css">
-  
-
-       
+ 
    
       <div class="jumbotron">
           
