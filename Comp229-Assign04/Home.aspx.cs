@@ -19,6 +19,7 @@ namespace Comp229_Assign04
             add.Visible = false;
             email.Visible = false;
             addbtn.Visible = true;
+            
         }
         public void getlist()
         {
@@ -31,6 +32,7 @@ namespace Comp229_Assign04
                 Gview.DataSource = list;
                Gview.DataBind();
             }
+            Gview.Visible = true;
         }
 
         protected void addbtn_Click(object sender, EventArgs e)
@@ -38,6 +40,7 @@ namespace Comp229_Assign04
             add.Visible = true;
             email.Visible = true;
             addbtn.Visible = false;
+            Gview.Visible = false;
         }
         protected void savebtn_Click(object sender, EventArgs e)
         {
@@ -83,7 +86,9 @@ namespace Comp229_Assign04
             sizetxt.Text = "";
             add.Visible = false;
             email.Visible = false;
+            Gview.Visible = true;
             addbtn.Visible = true;
+            
         }
 
         protected void send_Click(object sender, EventArgs e)

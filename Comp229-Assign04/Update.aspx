@@ -11,46 +11,33 @@
 
         <div class="row">
             
-
-      <asp:label class="control-label" runat="server" >Mini Name   </asp:label>
-                    <asp:TextBox runat="server" CssClass="form-control" ID="Mntxt"
-                        placeholder="Mini Name" required="true">  </asp:TextBox>      
-                    <asp:label class="control-label" runat="server">Faction   </asp:label>
-                    <asp:TextBox runat="server" CssClass="form-control" ID="Ftxt"
-                        placeholder=" Faction " required="true">    </asp:TextBox>
-                   <asp:label class="control-label" runat="server">Rank   </asp:label>
-                    <asp:TextBox runat="server" CssClass="form-control" ID="Rtxt"
-                        placeholder="Rank" required="true">  </asp:TextBox>
-                   <asp:label class="control-label" runat="server">Base   </asp:label>
-                    <asp:TextBox runat="server" CssClass="form-control" ID="Btxt"
-                        placeholder=" Base " required="true">    </asp:TextBox>             
-                    <asp:label class="control-label" runat="server">Size   </asp:label>
-                    <asp:TextBox runat="server" CssClass="form-control" ID="Sztxt"
-                        placeholder="Size" required="true">  </asp:TextBox>
-               
-                    <asp:label class="control-label" runat="server">Deployment Zone   </asp:label>
-                    <asp:TextBox runat="server" CssClass="form-control" ID="Dztxt"
-                        placeholder="Deployment Zone" required="true">  </asp:TextBox>
-               
-                    <asp:label class="control-label" runat="server">Mobility   </asp:label>
-                    <asp:TextBox runat="server" CssClass="form-control" ID="Mbtxt"
-                        placeholder="Mobility" required="true">  </asp:TextBox>
-             
-                    <asp:label class="control-label" runat="server">Willpower   </asp:label>
-                    <asp:TextBox runat="server" CssClass="form-control" ID="Wtxt"
-                        placeholder="Willpower" required="true">  </asp:TextBox>
-               
-                    <asp:label class="control-label" runat="server">Resiliance   </asp:label>
-                    <asp:TextBox runat="server" CssClass="form-control" ID="Rstxt"
-                        placeholder="Resiliance " required="true">    </asp:TextBox>
-               
-                    <asp:label class="control-label" runat="server">Wound   </asp:label>
-                    <asp:TextBox runat="server" CssClass="form-control" ID="Wdtxt"
-                        placeholder="Wounds " required="true">    </asp:TextBox>
-
-            <asp:Button Text="cancel" ID="Cnclbtn" CssClass="btn btn-danger btn-sm" runat="server" UseSubmitBehavior="false" OnClick="Cnclbtn_Click" />
-                    <asp:Button Text="Save" ID="Svbtn" CssClass="btn btn-primary btn-lg" runat="server" OnClick="Svbtn_Click"/>
-                
+            <<h2>Update mini info here: </h2>
+<table>
+    <tr><td><asp:label class="control-label" runat="server" >Mini Name: </asp:label></td><th><asp:TextBox runat="server" class="form-control" ID="Mntxt"
+                         required="true">  </asp:TextBox></th></tr>
+      <tr><td> <asp:label class="control-label" runat="server">Faction: </asp:label></td><th> <asp:TextBox runat="server" class="form-control" ID="Ftxt"
+                         required="true">    </asp:TextBox></th></tr>
+           <tr><td></td><th></th></tr>
+    <tr><td> <asp:label class="control-label" runat="server">Rank: </asp:label></td><th><asp:TextBox runat="server" class="form-control" ID="Rtxt"
+                         required="true">  </asp:TextBox></th></tr>
+    <tr><td><asp:label class="control-label" runat="server">Base: </asp:label></td><th><asp:TextBox runat="server" class="form-control" ID="Btxt"
+                         required="true">    </asp:TextBox> </th></tr>
+    <tr><td><asp:label class="control-label" runat="server">Size: </asp:label></td><th><asp:TextBox runat="server" class="form-control" ID="Sztxt"
+                         required="true">  </asp:TextBox></th></tr>
+    <tr><td><asp:label class="control-label" runat="server">Deployment Zone: </asp:label></td><th><asp:TextBox runat="server" class="form-control" ID="Dztxt"
+                         required="true">  </asp:TextBox></th></tr>
+    <tr><td> <asp:label class="control-label" runat="server">Mobility: </asp:label></td><th><asp:TextBox runat="server" class="form-control" ID="Mbtxt"
+                         required="true">  </asp:TextBox></th></tr>
+    <tr><td><asp:label class="control-label" runat="server">Willpower: </asp:label></td><th> <asp:TextBox runat="server" class="form-control" ID="Wtxt"
+                         required="true">  </asp:TextBox></th></tr>
+    <tr><td><asp:label class="control-label" runat="server">Resiliance: </asp:label></td><th><asp:TextBox runat="server" class="form-control" ID="Rstxt"
+                         required="true">    </asp:TextBox></th></tr>
+    <tr><td><asp:label class="control-label" runat="server">Wound: </asp:label></td><th><asp:TextBox runat="server" class="form-control" ID="Wdtxt"
+                         required="true">    </asp:TextBox></th></tr>
+     <tr><td><asp:Button Text="cancel" ID="Cnclbtn" class="btn btn-danger btn-sm" runat="server" UseSubmitBehavior="false" OnClick="Cnclbtn_Click" /></td><th>
+         <asp:Button Text="Save" ID="Svbtn" class="btn btn-primary btn-lg" runat="server" OnClick="Svbtn_Click"/>
+   </th></tr>         
+</table>
             </div>
           </div>
      

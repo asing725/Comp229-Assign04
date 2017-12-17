@@ -12,14 +12,14 @@
         <div class="row">
           
      
-       <asp:GridView ID="Gviewmp" runat="server" AutoGenerateColumns="false"  DataKeyField="MiniName" >
+       <asp:GridView ID="Gviewmp" runat="server" CssClass="table table-bordered table-hover table-stripped" AutoGenerateColumns="false"  DataKeyField="MiniName" >
              <Columns>
                  <asp:HyperLinkField Text="Edit"
-                             ControlStyle-CssClass="btn btn-primary btn-sm"
+                             ControlStyle-Class="btn btn-primary btn-sm"
                             runat="server" DataNavigateUrlFields="MiniName"
                             DataNavigateUrlFormatString="Update.aspx?MiniName={0}" />
                      <asp:TemplateField><ItemTemplate>
-                     <asp:Button ID="del" OnClick="del_Click" Text="Delete" runat="server" CssClass="btn btn-danger btn-sm"/>
+                     <asp:Button ID="del" OnClick="del_Click" Text="Delete" runat="server" class="btn btn-danger btn-sm"/>
                  </ItemTemplate> </asp:TemplateField>              
                 <asp:BoundField DataField="Mininame" HeaderText="Name" />
                 <asp:BoundField DataField="faction" HeaderText="Faction" />
